@@ -1,0 +1,40 @@
+name: "Boulila Aicha"
+output_dir: "."
+navbar:
+  title: "Boulila Aicha"
+  right:
+    - text: "Accueil"
+      href: index.html
+    - text: "Contact"
+      menu:
+      
+        - text: kaggle
+          href: https://www.kaggle.com/aichamarwa
+          
+        - text: LinkedIn
+          href: https://www.linkedin.com/in/aycha-boulila-551748163/
+        
+        - icon: fa-github
+          href: https://github.com/AychaBoulila
+        - icon: fa-envelope
+          href: mailto:boulilaaicha50@gmail.com
+    
+    
+    - text: "Mes projets"
+      menu:
+    
+       - text : Kernel
+         href: https://www.kaggle.com/aichamarwa/kernelde2905a147
+       - text : Application Shiny
+         href: https://boulilaaicha.shinyapps.io/AppPrix/
+       
+   
+    - text: "CV"
+      href: cv..pdf
+    - text: "Lettre de Motiv"
+      href: Lettre. .pdf
+output:
+  html_document:
+    theme: journal
+    highlight: textmate
+    css: css/style.css
